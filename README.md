@@ -15,8 +15,18 @@ This repository contains solution to assignment for Principal of Communications 
   ```bash
   Press 1 for sin wave
   Press 2 for cosine wave
+  Press 3 for using custom audio file (wav format)
   Enter option: 1
   Enter number of elements: 1000
+    ```
+    
+* To use custom audio file as input
+  ```bash
+  Press 1 for sin wave
+  Press 2 for cosine wave
+  Press 3 for using custom audio file (wav format)
+  Enter option: 3
+  Enter audio file name: beleiver.wav
     ```
 
   This will generate a file called `data.txt` with float values on each line.
@@ -57,6 +67,18 @@ Enter value of carrier frequency: 100000
 
 ![](assets/AM_cos.png)
 
+#### Audio file of Believer as input
+
+Output of python file
+
+```bash
+Enter File Name: data.txt
+Enter value of modulation index (0-1): 0.6
+Enter value of carrier frequency: 1000
+```
+
+![](assets/AM_believer.png)
+
 # Frequency Modulation
 
 > Write a program in MATLAB/Python/Scilab (any) to generate an FM wave for a given deviation ratio and modulating signal. The deviation ratio, carrier frequency and modulating signal must be taken as input from user.
@@ -95,3 +117,16 @@ Enter value of carrier frequency: 1000000
 ```
 
 ![](assets/FM_cos.png)
+
+
+#### Audio file of Believer as input
+
+Output of the python file
+
+```bash
+Enter File Name: data.txt
+Enter value of deviation ratio: 10
+Enter value of carrier frequency: 10000
+```
+
+![](assets/FM_believer.png)
