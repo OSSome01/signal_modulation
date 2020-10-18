@@ -1,8 +1,6 @@
 import math
 import numpy as np
 from scipy.io import wavfile
-# from scipy.io.wavfile import read
-# from scipy.signal import decimate
 
 print("Press 1 for sin wave")
 print("Press 2 for cosine wave")
